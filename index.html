@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do</title>
+    <style>
+        body{
+            background-color: rgb(55, 95, 160);
+        }
+        ul{
+            margin:150px 420px;
+            background-color: rgb(52, 142, 232);
+            padding:40px;
+            transition:0.3s;
+            box-shadow:10px 10px 50px;
+
+        }
+        ul:hover{
+            box-shadow:20px 20px 50px;
+        }
+        #elements{
+            margin:30px;
+            font-size:25px;
+        }
+        legend{
+            background-color: rgb(29, 29, 75);
+            color:white;
+            width:100px;
+            text-align: center;
+        }
+        input{
+            user-select: auto;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <div class="list">
+        <ul>
+            <fieldset>
+            <legend>Todo List</legend>
+            <div id="elements">
+                <input type="checkbox">
+                <label>Attend Meeting</label>
+            </div>
+            <div id="elements">
+                <input type="checkbox">
+                <label>Complete Assignment</label>
+            </div>
+            <div id="elements">
+                <input type="checkbox">
+                <label>Finish design for new website</label>
+            </div>
+            <div id="elements">
+                <input type="checkbox">
+                <label>Go to GYM</label>
+            </div>
+            </fieldset>
+        </ul>
+    </div>
+</body>
+</html>
